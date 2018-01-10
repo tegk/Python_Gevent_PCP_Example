@@ -45,7 +45,7 @@ def writer():
         if t == 'SENTINAL':
             sen_count -= 1
             if sen_count < 1:
-                ('Writer received all Jobs. The last Job was', t)
+                print 'Writer received all Jobs. The last Job was', tt
                 break
         else:
             tt = t
